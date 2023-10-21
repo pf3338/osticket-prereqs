@@ -46,6 +46,30 @@ Next, we log into the newly created virtual machine with remote desktop using it
 <img src="https://i.imgur.com/PMcagG9.png"/>
 </p>
 <p>
-After logging into the virtual machine, navigate to the control panel, and head to "Programs and Features."
+After logging into the virtual machine, navigate to the control panel, and head to "Programs and Features", then hit "Turn windows Features on or off."
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/PMcagG9.png"/>
+</p>
+<p>
+After logging into the virtual machine, navigate to the control panel, and head to "Programs and Features", then hit "Turn windows Features on or off."
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/9RPQdV0.png"/>
+</p>
+<p>
+Head to the "Internet Information Services" section and click on the drop down list. Navigate to "Web Management Tools." After doing so, check all the boxes in the drop down list.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/p2qGYwq.png"/>
+</p>
+<p>
+After turning on all web management tools, head back to "World Wide Web Services," then head to "Application Development Features," and check the box next to "CGI."
 </p>
 <br />
