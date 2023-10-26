@@ -73,3 +73,16 @@ Head to the "Internet Information Services" section and click on the drop down l
 After turning on all web management tools, head back to "World Wide Web Services," then head to "Application Development Features," and check the box next to "CGI."
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/9r7ka4O.png"/>
+</p>
+<p>
+Next, we are going to download and install some prerequisite files needed to setup and run OS Ticket. We will need to download the following files:
+  -PHPManagerForIIS_V1.5.0.msi
+  -rewrite_amd64_en-US.msi
+  -php-7.3.8-nts-Win32-VC15-x86.zip
+  -VC_redist.x86.exe
+  -mysql-5.5.62-win32.msi
+</p>
+<br />
