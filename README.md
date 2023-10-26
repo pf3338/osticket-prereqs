@@ -86,7 +86,7 @@ Next, we are going to download and install some prerequisite files needed to set
 <img src="https://i.imgur.com/9r7ka40.png"/>
 </p>
 <p>
-
+After downloading and setting up the necessary files, we will have to 
 </p>
 <br />
 
