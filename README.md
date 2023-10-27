@@ -75,18 +75,49 @@ After turning on all web management tools, head back to "World Wide Web Services
 <br />
 
 <p>
-<img src="https://i.imgur.com/9r7ka40.png"/>
+<img src="https://i.imgur.com/9r7ka4O.png"/>
 </p>
 <p>
-Next, we are going to download and install some prerequisite files needed to setup and run OS Ticket. We will need to download the following files: PHPManagerForIIS_V1.5.0.msi, rewrite_amd64_en-US.msi, php-7.3.8-nts-Win32-VC15-×86.zip,VC_redist.×86.exe, and mysql-5.5.62-win32.msi.
+Next, we are going to download and install some prerequisite files needed to setup and run OS Ticket. We will need to download the following files: PHPManagerForIIS_V1.5.0.msi, rewrite_amd64_en-US.msi, php-7.3.8-nts-Win32-VC15-x86.zip, VC_redist.x86.exe, and mysql-5.5.62-win32.msi.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/9r7ka40.png"/>
+<img src="https://i.imgur.com/9r7ka4O.png"/>
 </p>
 <p>
-After downloading and setting up the necessary files, we will have to 
+After downloading all the prerequisite fiiles, make sure to unzip the contents of "PHP 7.3.8" into a newly made directory named "C:\PHP." Then, open IIS (Internet Information Services) as an administrator.
 </p>
 <br />
 
+<p>
+<img src="https://i.imgur.com/9r7ka4O.png"/>
+</p>
+<p>
+After opening IIS as an admin, register PHP from within IIS. Then, refresh the page.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/9r7ka4O.png"/>
+</p>
+<p>
+After opening IIS as an admin, register PHP from within IIS. Then, refresh the page.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/9r7ka4O.png"/>
+</p>
+<p>
+Next, download install osTicket v1.15.8 and its accompanying files. Then, copy the "upload" folder to "c:\inetpub\wwwroot." Lastly, make sure to refresh IIS.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/9r7ka4O.png"/>
+</p>
+<p>
+Next, open IIS, head to "sites", then head to "default," and select "osTicket." Then, click on "Browse *:80."
+</p>
+<br />
