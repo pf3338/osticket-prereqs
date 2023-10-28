@@ -102,14 +102,6 @@ After opening IIS as an admin, register PHP from within IIS. Then, refresh the p
 <img src="https://i.imgur.com/9r7ka4O.png"/>
 </p>
 <p>
-After opening IIS as an admin, register PHP from within IIS. Then, refresh the page.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/9r7ka4O.png"/>
-</p>
-<p>
 Next, download install osTicket v1.15.8 and its accompanying files. Then, copy the "upload" folder to "c:\inetpub\wwwroot." Lastly, make sure to refresh IIS.
 </p>
 <br />
@@ -119,5 +111,60 @@ Next, download install osTicket v1.15.8 and its accompanying files. Then, copy t
 </p>
 <p>
 Next, open IIS, head to "sites", then head to "default," and select "osTicket." Then, click on "Browse *:80."
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/9r7ka4O.png"/>
+</p>
+<p>
+From within IIS, navigate to PHP Manager, and toggle on the following extensions: "php_imap.dll," "php_intl.dll," and "php_opcache.dll."
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/9r7ka4O.png"/>
+</p>
+<p>
+When done enabling the above extensions, rename "ost-sampleconfig.php" to "ost-config.php" (under the "C:\inetpub\wwwroot\osTicket\include\" directory).
+</p>
+
+<p>
+<img src="https://i.imgur.com/9r7ka4O.png"/>
+</p>
+<p>
+Next, assign permissions to "Everyone" for the "ost-config.php" file.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/9r7ka4O.png"/>
+</p>
+<p>
+From within the browser, setup osTicket (name the helpdesk, provide a default email address for incoming tickets, etc).
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/9r7ka4O.png"/>
+</p>
+<p>
+After setting up osTicket from within your browser, download and install HeidiSQL and use the installed files to finish setting up osTicket.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/9r7ka4O.png"/>
+</p>
+<p>
+Lastly, delete the "C:\inetpub\wwwroot\osTicket\setup" file and set permissions to "Read" only for "C:\inetpub\wwwroot\osTicket\include\ost-config.php".
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/9r7ka4O.png"/>
+</p>
+<p>
+When done, you should be able to browse to your login page using the following url: "http://localhost/osTicket/scp/login.php."
 </p>
 <br />
