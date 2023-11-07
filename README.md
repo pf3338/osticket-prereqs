@@ -162,7 +162,7 @@ Lastly, delete the "C:\inetpub\wwwroot\osTicket\setup" file and set permissions 
 <br />
 
 <p>
-<img src="https://i.imgur.com/9r7ka4O.png"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 When done, you should be able to browse to your login page using the following url: "http://localhost/osTicket/scp/login.php."
